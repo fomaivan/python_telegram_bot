@@ -1,3 +1,4 @@
+import requests
 from aiogram import Bot, types, Dispatcher, executor
 import markup
 import logic_bot

@@ -22,7 +22,8 @@ class DataBase:
         self.crypto_dict = make_crypto_dict()
 
     def start_command(self, user_id):
-        temp = self.cursor.execute("""SELECT user_id, name_crypto FROM crypto_list
+        temp = self.cursor.execute("""SELECT user_id, name_crypto
+                                              FROM crypto_list
                                               WHERE user_id = ? AND name_crypto = ?""",
                                               (user_id, "BTC"))
         if temp.fetchone() is None:
