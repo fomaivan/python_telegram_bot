@@ -13,3 +13,13 @@
 4) Запуск бота: python3 bot.py
 
 Для начала работы бота введите /start
+
+![Image alt](https://github.com/fomaivan/python_telegram_bot/blob/main/images/start.png) 
+
+![Image alt](https://github.com/fomaivan/python_telegram_bot/blob/main/images/help.png)
+
+![Image alt](https://github.com/fomaivan/python_telegram_bot/blob/main/images/all.png)
+
+![Image alt](https://github.com/fomaivan/python_telegram_bot/blob/main/images/add.png)
+
+![Image alt](https://github.com/fomaivan/python_telegram_bot/blob/main/images/del.png)
